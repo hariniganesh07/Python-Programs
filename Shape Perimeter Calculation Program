@@ -1,0 +1,12 @@
+s=int(input())
+l=int(input())
+w=int(input())
+r=int(input())
+s1=int(input())
+s2=int(input())
+b=int(input())
+a=2*3.14*r
+print(4*s)
+print(2*(l+w))
+print(f"{a:.2f}")
+print(s1+b+s2)
