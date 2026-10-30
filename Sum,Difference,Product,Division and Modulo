@@ -1,0 +1,10 @@
+A,B=map(int,input().split())
+print(A+B)
+print(A-B)
+print(A*B)
+print(int(A/B))
+if A<0 or B<0:
+  c=abs(A)%abs(B)
+  print(-1*c)
+else:
+  print(A%B)
