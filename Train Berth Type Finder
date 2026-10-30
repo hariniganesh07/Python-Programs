@@ -1,0 +1,14 @@
+n = int(input())
+
+r = n % 8
+
+if r == 1 or r == 4:
+    print("LB")
+elif r == 2 or r == 5:
+    print("MB")
+elif r == 3 or r == 6:
+    print("UB")
+elif r == 7:
+    print("SL")
+else:
+    print("SU")
